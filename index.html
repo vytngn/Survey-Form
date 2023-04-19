@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Sips:s wants to get to know you!</h1>
+            <p id="description"> Thank you for taking the time to help us improve the products</p>
+        </header>
+        <main>
+            <form id="survey-form">
+                <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+                <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your email" required/> </label>
+                <label id="number-label" for="number">Age (optional) <input id="number" type="number" placeholder="Age" min="10" max="99"/></label>
+                <label>How option do you visit our shop?
+                    <select id="dropdown"> 
+                        <option value="" disabled selected>Select</option>
+                        <option value="daily">Daily</option>
+                        <option value="often">Several times a week</option>
+                        <option value="once">Once a week</option>
+                        <option value="monthly">Few times a monthly</option>
+                        <option value="never">Rarely or Never</option>
+                    </select>
+                </label>
+                <label> What is your favorite item on the menu
+                    <select id="dropdown">
+                        <option value="" disabled selected>Select</option>
+                        <option value="tea">Tea</option>
+                        <option value="coffee">Coffee</option>
+                        <option value="coffee">Bakery</option>
+                </label>
+                <label for="specify">Specifically:
+                    <input type="text" id="specify" placeholder="Please specify"/> 
+                </label>
+
+                <label>Would you Sips:s to a friend?</label>
+                <div class="radio-container">
+                    <input name="recommend" value="definitely" type="radio">Definitely
+                    <input name="recommend" value="maybe" type="radio">Maybe
+                    <input name="recommend" value="not-sure" type="radio">Not sure
+                </div> 
+                <label>How was your experience with us ?
+                    <select>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="fair">Fair</option>
+                        <option value="poor">Poor</option>
+                    </select>
+                </label>
+                <label>What would you like to see improved? (Check all that apply)
+                </label>
+                <div class="checkbox-container"> 
+                    <input value="products" type="checkbox"> Products
+                    <input value="music" type="checkbox"> Music
+                    <input value="service" type="checkbox"> Service
+                </div>
+                <label>Any comments or suggestions?
+                    <textarea placeholder="Enter your comment here" rols="3" cols="30"></textarea>
+                </label>
+
+                <div class="container">
+                    <input id="submit" type="submit" value="SUBMIT"/>
+                </div>
+            </form>
+        </main>
+
+        
+
+        
+        
+        
+  </body>
+
+</html>

@@ -1,0 +1,75 @@
+header{
+    margin: 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color:rgb(6, 22, 164);
+    font-family: 'Times New Roman', Times, serif
+}
+
+label {
+    display: block;
+    margin: 10px auto;
+    font-weight:bold;
+}
+
+main{
+    width: 80%;
+    background-color: white;
+    padding: 20px 20px 20px 34px;
+    border: 2px solid rgb(6, 22, 164);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(6, 22, 164);
+    min-width: 20%;
+    margin: auto;
+}
+input, select, textarea{
+    display:block;
+    margin-top:1px;
+    border: 1px solid rgba(89, 97, 170, 0.4);
+    border-radius: 4px;
+    color:rgb(15, 2, 19);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    color:rgb(15, 15, 44);
+}
+
+input[type="radio"], input[type="checkbox"]{
+    display:unset;
+    font-weight: lighter;
+}
+
+textarea{
+    width: 70%;
+    height: 4rem;
+    min-height:4rem;
+    max-width: 70%;
+    min-width: 30%;
+    color:rgb(6, 6, 116)
+    
+}
+input[type="submit"]{
+    background-color:white;
+    width: 20%;
+    height: 2em;
+    align-items:center;
+    margin-top: 20px;
+    color: rgb(6, 22, 164);
+    border:2px solid rgb(6, 22, 164);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(6, 22, 164);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+p{
+    font-style:italic;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
