@@ -29,6 +29,9 @@ The project files are organized as follows:
 - `index.html`: This is the main HTML file that contains the survey form markup.
 - `style.css`: This is the CSS file that styles the survey form.
 
+## UI
+<img width="609" alt="Screen Shot 2023-04-18 at 9 37 59 PM" src="https://user-images.githubusercontent.com/93438683/232945132-2b724fee-7388-4bff-882c-39c1aa1f8079.png">
+
 ## Conclusion
 
 This project demonstrates the ability to create a survey form with a simple UI using HTML and CSS. Although this form does not have any action or server yet, it provides a foundation for building a functional survey form in the future.
